@@ -4,7 +4,7 @@ const noBtn = document.getElementById('no-btn');
 const questionSection = document.getElementById('question-section');
 const successSection = document.getElementById('success-section');
 
-const messages = ["진짜?", "한 번 더 생각해봐..", "제발!", "정말 안돼?", "나 울 거야.."];
+const messages = ["진짜루?", "다시 생각해봐..", "제발..ㅜㅜ", "정말 안돼?", "나 울 거야.."];
 let msgIndex = 0;
 
 noBtn.addEventListener('click', () => {
