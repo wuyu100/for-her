@@ -34,6 +34,6 @@ yesBtn.addEventListener('click', () => {
 
     // 노래 교체 (after.mp3)
     bgm.src = "after.mp3";
-    bgm.currentTime = 10; // 만약 10초부터 틀고 싶다면 수정 (0으로 두면 처음부터)
+    bgm.currentTime = 0; // 만약 10초부터 틀고 싶다면 수정 (0으로 두면 처음부터)
     bgm.play();
 });
